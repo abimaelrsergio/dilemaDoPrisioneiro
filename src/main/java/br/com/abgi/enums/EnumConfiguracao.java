@@ -1,13 +1,14 @@
 package br.com.abgi.enums;
 
-public enum EnumTamanhos {
+public enum EnumConfiguracao {
 
 	TAMANHO_CROMOSSOMO(15),
-	TAMANHO_DO_RETICULADO(10);
+	TAMANHO_DO_RETICULADO(10),
+	TOTAL_ITERACOES(5000);
 
 	private final int tamanho;
 
-	EnumTamanhos(int tamanho) {
+	EnumConfiguracao(int tamanho) {
 		this.tamanho = tamanho;
 	}
 
